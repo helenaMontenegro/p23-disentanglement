@@ -19,8 +19,8 @@ The data that is provided to the models is organized in a ```.hdf5``` file with 
 
 ## Models
 
-### Disentanglement network with multi-class identity recognition
-  * Available in ```multiclass_disentanglement_network.py```
-  * Includes the training and testing functions
-  * At the end of each epoch, an image that shows the current results of the model on a test case is saved on folder ```images```
+### Disentanglement network with multi-class identity recognition: ```multiclass``` folder
+  * Training and testing of disentanglement network available in ```multiclass/disentanglement_network.py```
+  * Training and testing of anonymization network available in ```multiclass/anonymization_network.py```
+  * At the end of each epoch, an image that shows the current results of the respective model on a test case is saved on folder ```images```
   * Model weights are saved on folder ```models``` 
